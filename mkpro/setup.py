@@ -14,8 +14,7 @@ def parse_args():
     parser.add_argument("--libft", action="store_true", help="Include libft")
 
     # Headers
-    parser.add_argument("--stdheader", action="store_true", help="Includes standard header")
-    parser.add_argument("--42header", action="store_true", help="Includes 42 header")
+    parser.add_argument("--header", action="store_true", help="Include headers")
     return parser.parse_args()
 
 def create_rootdir(args):
